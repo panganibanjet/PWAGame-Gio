@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My PWA Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <canvas id="game-canvas"></canvas>
-    <script src="maze.js"></script>
-    <script src="app.js"></script>
-  </body>
+<head>
+  <title>Dice Roll Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <div class="dice">
+      <span id="dice-value"></span>
+    </div>
+    <button id="roll-btn">Roll the Dice</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
 </html>
