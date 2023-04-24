@@ -1,6 +1,6 @@
 {
-  "name": "Welcome to ITST 304 - Mobile Computing",
-  "short_name": "LSPU CCS",
+  "name": "Maze Game",
+  "short_name": "Maze",
   "icons": [{
     "src": "images/logo-ccs-60.png",
       "sizes": "60x60",
